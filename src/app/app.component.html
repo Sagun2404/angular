@@ -1,0 +1,12 @@
+<h1>Hello</h1>
+<h1>{{title}}</h1>
+<p *ngIf="count>5">I am visible</p>
+<button (click)="increment()">Increment count</button><br><br>
+<button (click)="decrement()">Decrement count</button>
+<br><br>
+<li *ngFor="let i of list">{{i}}</li>
+<li *ngFor="let i of names">{{i}}</li>
+<input type="text" [(ngModel)]="num1">
+<input type="text" [(ngModel)]="num2">
+<button (click)= "sum()">Add</button>
+the sum is{{num3}}
